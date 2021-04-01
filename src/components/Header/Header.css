@@ -44,7 +44,7 @@ div.second-bar {
 
 .navbar-anonymous {
     float: right;
-    display: none;
+    /* display: none; */
 }
 
 #topLogo {
