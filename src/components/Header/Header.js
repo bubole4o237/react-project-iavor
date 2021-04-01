@@ -7,7 +7,7 @@ const Header = () => {
         <header id="site-header">
             <nav className="navbar">
                 <div>
-                    <img id="topLogo" className="teddy-bear" src="http://localhost:3000/teddybear.png" alt="teddy bear" height="110" />
+                    <img id="topLogo" className="teddy-bear" src="http://localhost:3000/img/teddy-bear-cartoon.png" alt="teddy bear" height="110" />
                 </div>
 
                 <section className="navbar-user">
@@ -15,8 +15,8 @@ const Header = () => {
                         <ul className="navigation-ul">
                             <li><NavLink activeClassName='nav-link-selected' className="button" to="/">НАЧАЛО</NavLink></li>
                             <li><NavLink activeClassName='nav-link-selected' className="button" to="/home">ПЕРСОНАЛИЗИРАНЕ</NavLink></li>
-                            <li><NavLink activeClassName='nav-link-selected' className="button" to="/pet/create">ЗА НАС</NavLink></li>
-                            <li><NavLink activeClassName='nav-link-selected' className="button" to="/pet/create">КОНТАКТИ</NavLink></li>
+                            <li><NavLink activeClassName='nav-link-selected' className="button" to="/">ЗА НАС</NavLink></li>
+                            <li><NavLink activeClassName='nav-link-selected' className="button" to="/">КОНТАКТИ</NavLink></li>
                         </ul>
                     </div>
                     <div className="second-bar">

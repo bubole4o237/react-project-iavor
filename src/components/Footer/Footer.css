@@ -1,0 +1,59 @@
+#site-footer {
+    height: 110px;
+    background-color: #F37FA6;
+}
+
+.footer-container {
+    position: relative;
+    width: 1000px;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.footer-info-div {
+    width: 33%;
+    float: left;
+    margin-top: 12px;
+    /* display: inline-block; */
+    /* border: 1px solid black; */
+}
+
+.footer-info-div > h4, .footer-info-div > p {
+    margin: 0px 0px 3px 5px;
+}
+
+p > a:hover {
+    color: white;
+}
+
+.social-network > img {
+    vertical-align: middle;
+    /* margin-right: 5px; */
+    /* border: 1px solid black; */
+}
+
+#twitter-link > img {
+    margin: 0px 6px 0px 4px;
+}
+
+.footer-copyright {
+    float: left;
+    width: 33%;
+    margin-top: 50px;
+    /* display: inline-block; */
+    /* vertical-align:text-bottom; */
+    text-align: center;
+    /* border: 1px solid black; */
+
+}
+
+.footer-logo {
+    /* position: absolute; */
+    float: right;
+    /* width: 10px; */
+    /* margin-right: -100px; */
+    margin-top: -36px;
+    /* display: inline-block; */
+    /* border: 1px solid black; */
+
+}
