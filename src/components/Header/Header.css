@@ -1,0 +1,54 @@
+header#site-header {
+    margin-top: 50px;
+    background-color: #e385a4;
+
+}
+
+header#site-header .navbar {
+    width: 1000px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+}
+
+ul.navigation-ul li {
+    display: inline-block;
+    margin-right: 20px;
+    list-style: none;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color:#131212;
+
+}
+
+.button:hover {
+    color: white;
+}
+
+.nav-link-selected:focus {
+    text-decoration: underline;
+    color: black;
+}
+
+div.first-bar {
+    /* float: left; */
+    display:inline-flex;
+    /* border: 1px solid black; */
+}
+
+div.second-bar {
+    float: right;
+    /* border: 1px solid black; */
+}
+
+.navbar-anonymous {
+    float: right;
+    display: none;
+}
+
+#topLogo {
+    float: left;
+    margin-left: 0px;
+    margin-top: -50px;
+}
